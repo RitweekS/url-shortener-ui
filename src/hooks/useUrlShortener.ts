@@ -4,7 +4,9 @@ import { UrlState, UrlMapping } from "../types";
 import { generateShortCode, validateUrl, ensureHttps } from "../utils/urlUtils";
 
 const STORAGE_KEY = "url_shortener_mappings";
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://vocational-gay-ritweeks-79ef5b96.koyeb.app";
+
+console.log(API_URL);
 
 export const useUrlShortener = () => {
     const [state, setState] = useState<UrlState>({
