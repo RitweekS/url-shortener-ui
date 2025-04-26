@@ -4,7 +4,7 @@ import { UrlState, UrlMapping } from "../types";
 import { generateShortCode, validateUrl, ensureHttps } from "../utils/urlUtils";
 
 const STORAGE_KEY = "url_shortener_mappings";
-const API_URL = "https://vocational-gay-ritweeks-79ef5b96.koyeb.app";
+const API_URL = "https://vocational-gay-ritweeks-79ef5b96.koyeb.app/short";
 
 console.log(API_URL);
 
